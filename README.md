@@ -1,76 +1,47 @@
-<!-- Animated Header -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:EC407A,100:7E57C2&height=200&section=header&text=Hi%20there,%20I'm%20Kiran!&fontSize=40&fontColor=fff&animation=fadeIn" />
-</p>
+# 🔢 CalcPro++
+_A Powerful and Flexible Terminal Calculator in C++_
 
-<!-- Typing Animation -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&center=true&vCenter=true&width=500&lines=Full+Stack+Web+Developer;AI+Explorer;Open+Source+Enthusiast" />
-</p>
-
-<!-- Waving Hand GIF -->
-<p align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="60" />
-</p>
+![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+![Language](https://img.shields.io/badge/language-C++-blue?style=flat-square)
 
 ---
 
-### 👋 About Me
+## 🚀 Overview
 
-- 🔭 Working on: **AI bots, trading tools, and real-time data apps**
-- 🌱 Learning: **Next.js, TypeScript, and Copilot SDK**
-- ⚙️ I like to build: **Automated tools, dashboards, and assistants**
-- 🧠 Fun Fact: I love clean code and dirty debugging!
+**CalcPro++** is an advanced, menu-driven calculator built in C++ that runs directly in your terminal. It supports a wide range of basic and advanced operations:
 
----
-
-### 🚀 Tech Stack
-
-![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5)
-![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3)
-![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logo=javascript)
-![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=for-the-badge&logo=typescript)
-![React](https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react)
-![Git](https://img.shields.io/badge/-Git-F1502F?style=for-the-badge&logo=git)
+- Addition, Subtraction, Multiplication, Division  
+- Exponents and Square Roots  
+- Input validation and clean user experience  
+- Looped interface until the user exits
 
 ---
 
-### ⚡ GitHub Stats
+## 📦 Features
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Kiran-mondal&show_icons=true&theme=tokyonight" height="180px"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Kiran-mondal&theme=tokyonight" height="180px"/>
-</p>
-
----
-
-### ✨ Highlights
-
-- **[chat-copilot](https://github.com/Kiran-mondal/chat-copilot)** – Forked from Microsoft’s AI Copilot project  
-- **[Kiran](https://github.com/Kiran-mondal/Kiran)** – TradingView chart integration with real-time data
+- ✅ Terminal-based simple interface  
+- ✅ Basic and advanced arithmetic support  
+- ✅ Continuous operations with exit option  
+- ✅ Safe input handling  
+- ✅ Lightweight and fast
 
 ---
 
-### 📈 Contribution Graph
+## 🧮 Supported Operations
 
-![Kiran's Contribution Snake](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg)
-
----
-
-### 🔥 Animated Code GIF
-
-<p align="center">
-  <img src="https://media.giphy.com/media/LMcB8XospGZO8UQq87/giphy.gif" width="600" />
-</p>
-
----
-
-### 📫 Contact Me
-
-[![Outlook](https://img.shields.io/badge/Microsoft-Outlook-blue?logo=microsoftoutlook&logoColor=white)](mailto:kiranmondal5516@gmail.com)
+| Operation        | Description        |
+|------------------|--------------------|
+| 1. Addition       | `a + b`            |
+| 2. Subtraction    | `a - b`            |
+| 3. Multiplication | `a * b`            |
+| 4. Division       | `a / b`            |
+| 5. Power (x^y)    | `pow(x, y)`        |
+| 6. Square Root    | `sqrt(x)`          |
 
 ---
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Kiran-mondal&theme=tokyonight&column=4"/>
-</p>
+## 🛠️ How to Compile and Run
+
+### 📥 Compile:
+```bash
+g++ calcpro.cpp -o calcpro
